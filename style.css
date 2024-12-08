@@ -1,0 +1,117 @@
+body{
+
+  background: linear-gradient(to right, #7aebd1 15%, #0d1137 100%);
+  
+  background-position: center center;
+background-attachment: fixed;
+
+
+}
+h1{
+color:rgb(225, 230, 235);
+font-family: 'Montserrat', sans-serif;
+}
+.stars i{
+  font-size: 1.5rem;
+  color:rgb(243, 201, 15);
+}
+.title{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 40rem;
+  font-size: 4rem;
+  font-weight:bold;
+  text-align: center;
+  
+  }
+  .card {
+      width: 90%;
+      max-width: 400px;
+      
+      font-weight:bold;
+      border-radius: 1rem;
+      border: 1px solid transparent;
+      backdrop-filter: blur(1rem);
+      box-shadow: 1.3rem 1.3rem 1.3rem rgba(30, 25, 1, 0.5);
+      border-top-color: rgba(234, 226, 237, 0.5);
+border-left-color: rgba(243, 239, 243, 0.5);
+border-bottom-color: rgba(237, 231, 237, 0.1);
+border-right-color: rgba(238, 233, 237, 0.1);
+      }
+.card:hover{
+  border: 3px solid transparent;
+  
+}
+.cb1{
+  background-color: rgba(0, 7, 6, 0.1);
+}
+.card-body{
+  background-color: rgba(251, 243, 244, 0.1);
+  border-radius:1rem;
+ 
+}
+.btn{
+  color:rgb(235, 226, 228);
+ 
+}
+.card-text{
+  color:#eee8e8;
+  border-radius:1rem;
+}
+main{
+  margin: 5vh 15%;
+}
+
+
+@media screen and (min-width:900px) {
+  .respon{
+    display: flex;
+  }
+  
+}
+.containers{
+  display:none;
+}
+
+@media screen and (max-width:720px){
+ 
+  .animation-area{
+    display: none;
+  }
+  .title{
+    font-size:40px;
+    margin-bottom:20px;
+  }
+  *,*:after,*:before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .containers {
+    align-items: center;
+    display: flex;
+    height: 2vh;
+    justify-content: center;
+  }
+  
+}
+
+.evs{
+  height:60px;
+  padding-left:5px;
+}
+.maths{
+  height:50px;
+  width:60px;
+}
+.job a{
+  color:#0a0a0a;
+  text-decoration: none;;
+
+}
+.job a:hover{
+  color:rgb(241, 241, 246);
+  
+}
